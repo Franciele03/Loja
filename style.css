@@ -156,6 +156,12 @@ table {
 .item-categoria{
     text-decoration: none;
 }
+
+.item-categoria:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+
+}
  
 .produtos{
     width: 1110px;
@@ -175,7 +181,15 @@ table {
     width: 350px;
     border: 1px solid rgba(0, 0, 0, 13%);
 }
- 
+
+.foto-produto{
+    filter: grayscale(1);
+    
+}.foto-produto:hover{
+    filter: grayscale(0);
+    transition: all 0.4s ease;
+}
+
 .titulo-produto{
     margin-top: 13px;
     margin-bottom: 13px;
